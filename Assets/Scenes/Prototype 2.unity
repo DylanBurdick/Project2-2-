@@ -634,7 +634,7 @@ MonoBehaviour:
     m_Priority: 0
   projectilePrefab: {fileID: 9215758672656582014, guid: defdf7b8cbf80684ab481e05bf219954, type: 3}
   moveInput: {x: 0, y: 0}
-  speed: 10
+  speed: 15
   xRange: 20
 --- !u!850595691 &943725995
 LightingSettings:

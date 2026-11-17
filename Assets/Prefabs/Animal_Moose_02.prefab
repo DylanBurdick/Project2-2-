@@ -286,8 +286,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8902833978194715225}
   - component: {fileID: 4822725003154311965}
+  - component: {fileID: 8752142679738461334}
   - component: {fileID: 6673839932939696388}
   - component: {fileID: 3798082692195429616}
+  - component: {fileID: 3147116214160699843}
   m_Layer: 0
   m_Name: Animal_Moose_02
   m_TagString: Untagged
@@ -342,6 +344,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8752142679738461334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970093557251981542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0123dea431fb06c44bc4d08325d79656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!114 &6673839932939696388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,6 +381,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 10
+--- !u!65 &3147116214160699843
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970093557251981542}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 0.4848291, z: 0.6367753}
+  m_Center: {x: 0, y: 0.2400259, z: 0.024930706}
 --- !u!1 &2459635067085966939
 GameObject:
   m_ObjectHideFlags: 0

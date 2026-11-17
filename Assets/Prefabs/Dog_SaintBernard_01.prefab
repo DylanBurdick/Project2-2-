@@ -1609,8 +1609,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3428043622862881759}
   - component: {fileID: 3356344753498358378}
+  - component: {fileID: 8635185992035523864}
   - component: {fileID: 2035710279477689633}
   - component: {fileID: 8175025263927829536}
+  - component: {fileID: 1581380788312577243}
   m_Layer: 0
   m_Name: Dog_SaintBernard_01
   m_TagString: Untagged
@@ -1692,6 +1694,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8635185992035523864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2595404932520851629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0123dea431fb06c44bc4d08325d79656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!114 &2035710279477689633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1717,6 +1731,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 10
+--- !u!65 &1581380788312577243
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2595404932520851629}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.23823985, y: 0.253085, z: 0.46740055}
+  m_Center: {x: 0, y: 0.1343869, z: 0}
 --- !u!1 &2602639578463579755
 GameObject:
   m_ObjectHideFlags: 0
